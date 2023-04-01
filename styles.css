@@ -18,17 +18,15 @@ img {
 }
 
 .container {
-    width: 25%;
-    margin: 150px auto 0;
-    background-color: white;
-}
-
-.container {
     width: 23%;
     margin: 100px auto 20px;
     background-color: white;
     padding: 15px 0px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
